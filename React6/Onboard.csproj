@@ -193,7 +193,9 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\Onboard1 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Onboard20200115041403 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Onboard20200115041403 - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -230,7 +232,9 @@
     <Content Include="Scripts\react\sales.jsx" />
     <Content Include="Scripts\react\store.jsx" />
     <Content Include="Scripts\react\webpack.config.jsx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
